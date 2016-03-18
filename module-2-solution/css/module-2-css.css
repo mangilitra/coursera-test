@@ -1,0 +1,152 @@
+*{
+
+	box-sizing:border-box;
+}
+body{
+
+	margin-left:5%;
+	margin-right:5%;
+}
+h1{
+	text-align:center;
+	font-family:Comic Sans MS, cursive, sans-serif
+}
+/** Styling**/
+.chickenmenu, .beefmenu, .sushimenu{
+color:#ffffff;
+background-color:#e60000;
+font-family:Comic Sans MS, cursive, sans-serif
+}
+
+/** Div Design**/
+.chickenmenu {
+	float:left;
+	position:relative;
+
+}
+
+.chicken{
+	top:0;
+	right:0;
+	margin:0;
+	font-size:23.5px;
+	position:absolute;
+	padding: 0 10px 0 10px;
+	border:1px solid black;
+}
+
+.menu1{
+	margin:0;
+	padding:30px;
+	border:1px solid black;
+	padding:40px 30px 30px 30px;
+}
+
+.beefmenu {
+	width:15%;
+	float:left;
+	position:relative;
+}
+
+.beef {
+	top:0;
+	right:0;
+	margin:0;
+	float:right;
+	position:absolute;
+	outline-offset: right;
+	padding: 0 10px 0 10px;
+	border:1px solid black;
+}
+
+.menu2 {
+	margin:0;
+	padding:30px;
+	border:1px solid black;
+	padding:40px 30px 30px 30px;
+}
+
+.sushimenu{
+	width:15%;
+	float:left;
+	position:relative;
+	
+}
+.sushi {
+	top:0;
+	right:0;
+	margin:0;
+	float:right;
+	position:absolute;
+	padding: 0 10px 0 10px;
+	border:1px solid black;
+
+}	
+.menu3{
+	margin:0;
+	border:1px solid black;
+	padding:40px 30px 30px 30px;
+}
+
+/** Media Query**/
+
+/** Desktop View **/
+@media (min-width: 992px) {
+
+	.chickenmenu, .beefmenu, .sushimenu{
+
+		float:left;
+
+	}
+	.chickenmenu{
+		width:30%;
+		margin-right:5%;
+		}
+
+	.beefmenu{
+		width:30%;
+		margin-right:5%;
+	}
+	.sushimenu{
+		width:30%;
+		
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px){
+	.chickenmenu, .beefmenu, .sushimenu{
+		float:left;
+	}
+	.chickenmenu{
+		width:48%;
+		margin-right:2%;
+	}
+	.beefmenu{
+		width:48%;
+		margin-left:2%;
+	}
+	.sushimenu{
+		width:100%;
+		margin-top:3%;
+	}
+}
+
+@media (max-width:767px){
+	.chickenmenu, .beefmenu, .sushimenu{
+	float:left
+}
+	.chickenmenu{
+		width:100%;
+
+	}
+	.beefmenu{
+		width:100%;
+		margin-top:4%;
+		margin-bottom:4%;
+	}
+	.sushimenu{
+		width:100%;
+	}
+}
+
+
