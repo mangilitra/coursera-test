@@ -1,0 +1,36 @@
+#header-nav {
+
+	background-color:#990000;
+	color:white;
+}
+
+.jumbotron {
+height:800px;
+margin-left:3%;
+margin-right:3%;
+}
+
+li {
+	text-align:center;
+	border:1px solid white;
+}
+
+
+div.jumbotron {
+	background-color:#990000;
+	color:white;
+}
+
+h1.navbar-header {
+	color:white;
+	margin-left:40px;
+}
+
+h2.text-center {
+	color:#990000;
+}
+
+#collapsable-nav, {
+
+	color:white;
+}
