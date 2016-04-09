@@ -375,7 +375,7 @@ h3.menu-item-title {
 div.firstDiv {
 height:250px;
 width:250px;
-background-color:red;
+background-color:#990000;
 margin-left:30px;
 float:left;
 }
@@ -383,7 +383,7 @@ float:left;
 div.secondDiv {
   height:250px;
   width:250px;
-  background-color:red;
+  background-color:#990000;
   float:left;
   margin-left:150px;
 }
@@ -391,7 +391,7 @@ div.secondDiv {
 div.thirdDiv{
   height:250px;
   width:250px;
-  background-color:red;
+  background-color:#990000;
   float:left;
   margin-left:150px;
 }
